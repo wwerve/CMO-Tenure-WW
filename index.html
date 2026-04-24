@@ -80,8 +80,8 @@ svg{display:block;overflow:visible}
 <nav>
   <div class="nb">CMO Tenure Review</div>
   <div class="nl">
-    <a href="#tldr">TL;DR</a><a href="#impact">Impact</a><a href="#gap">Gap</a><a href="#scorecard">Scorecard</a>
-    <a href="#budget">Budget</a><a href="#events">Events</a><a href="#roas">ROAS</a>
+    <a href="#tldr">TL;DR</a><a href="#impact">Impact</a><a href="#gap">Gap</a><a href="#fullpicture">Full Picture</a><a href="#scorecard">Scorecard</a>
+    <a href="#budget">Budget</a><a href="#events">Events</a><a href="#programs">Webinars &amp; Events</a><a href="#roas">ROAS</a>
     <a href="#rebrand">Rebrand</a><a href="#recs">Recs</a>
   </div>
 </nav>
@@ -197,8 +197,11 @@ svg{display:block;overflow:visible}
   <div class="sr">
     <div class="sc"><div class="lb">Avg pipeline/month before</div><div class="vl">$1.0M</div><div class="su">Jan–Apr 2024</div></div>
     <div class="sc pos"><div class="lb">Avg pipeline/month after</div><div class="vl">$1.8M</div><div class="su">May 2024–Dec 2025</div></div>
-    <div class="sc pos"><div class="lb">Pipeline uplift</div><div class="vl">+63%</div><div class="su">Average monthly</div></div>
+    <div class="sc pos"><div class="lb">Adj. avg (Jul 2024 onwards)</div><div class="vl">$1.79M</div><div class="su">Excl. in-flight campaigns</div></div>
     <div class="sc pos"><div class="lb">Peak month</div><div class="vl">$2.6M</div><div class="su">Apr 2025 — highest ever</div></div>
+  </div>
+  <div class="cal" style="margin-bottom:1rem">
+    <strong>Honest attribution note:</strong> May and June 2024 pipeline almost certainly reflects campaigns already in flight under the previous CMO. Realistically, the new CMO can take full ownership from July 2024 onwards — roughly 2 months after joining. The adjusted average from July 2024–December 2025 is $1.79M/month, essentially unchanged from the headline figure, which means the story holds either way. The uplift is real regardless of where you draw the attribution line.
   </div>
   <div class="cw">
     <div class="ct2">Monthly marketing pipeline — Jan 2024 to Dec 2025 ($K)</div>
@@ -223,6 +226,9 @@ svg{display:block;overflow:visible}
       <text x="217" y="103" font-size="8" fill="#0D7C6E" font-weight="bold">Avg $1.8M (+63%)</text>
       <line x1="215" y1="8" x2="215" y2="185" stroke="#C0392B" stroke-width="1.5" stroke-dasharray="4,3"/>
       <text x="218" y="18" font-size="8.5" fill="#C0392B" font-weight="bold">CMO joins May 2024</text>
+      <line x1="283" y1="8" x2="283" y2="185" stroke="#B45309" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <text x="286" y="32" font-size="8" fill="#B45309" font-weight="bold">Clean signal</text>
+      <text x="286" y="42" font-size="8" fill="#B45309">Jul 2024 →</text>
       <rect x="58"  y="150" width="22" height="38" fill="#93C4DB" rx="2"/>
       <rect x="91"  y="155" width="22" height="33" fill="#93C4DB" rx="2"/>
       <rect x="124" y="143" width="22" height="45" fill="#93C4DB" rx="2"/>
@@ -354,6 +360,189 @@ svg{display:block;overflow:visible}
   </div>
 </div></section>
 
+<section id="fullpicture"><div class="con">
+  <div class="kk">03b — The Full Pipeline Picture</div>
+  <h2 class="st">Marketing was the only source to hit target in FY2025</h2>
+  <p class="sb">When you look beyond marketing-sourced pipeline to the full funnel, the CMO story becomes significantly stronger. Every other pipeline source missed target in FY2025. Only Marketing delivered above plan — by 8 points — while SDR collapsed to 53% of target and Sales ran at 74%.</p>
+
+  <div class="sr">
+    <div class="sc pos"><div class="lb">Marketing pipeline FY25</div><div class="vl">108%</div><div class="su">$21.9M vs $20.3M target</div></div>
+    <div class="sc warn"><div class="lb">Sales pipeline FY25</div><div class="vl">74%</div><div class="su">$11.3M vs $15.2M target</div></div>
+    <div class="sc warn"><div class="lb">CX pipeline FY25</div><div class="vl">60%</div><div class="su">$4.6M vs $7.7M target</div></div>
+    <div class="sc" style="background:#FDECEA;border-color:#F09595"><div class="lb">SDR pipeline FY25</div><div class="vl" style="color:#791F1F">53%</div><div class="su">$7.5M vs $14.1M target</div></div>
+  </div>
+
+  <div class="cw">
+    <div class="ct2">FY2025 pipeline attainment by source — actual vs target</div>
+    <svg viewBox="0 0 640 210" width="100%">
+      <line x1="50" y1="15" x2="620" y2="15" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="52" x2="620" y2="52" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="89" x2="620" y2="89" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="126" x2="620" y2="126" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="163" x2="620" y2="163" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="45" y="18" text-anchor="end" font-size="9" fill="#64748B">$25M</text>
+      <text x="45" y="55" text-anchor="end" font-size="9" fill="#64748B">$20M</text>
+      <text x="45" y="92" text-anchor="end" font-size="9" fill="#64748B">$15M</text>
+      <text x="45" y="129" text-anchor="end" font-size="9" fill="#64748B">$10M</text>
+      <text x="45" y="166" text-anchor="end" font-size="9" fill="#64748B">$5M</text>
+      <!-- scale: max 25M, h=(val/25)*148, y=163-h -->
+      <!-- Marketing actual 21.9M h=130, target 20.3M h=120 -->
+      <rect x="65"  y="33"  width="55" height="130" fill="#0D7C6E" rx="2"/>
+      <rect x="122" y="43"  width="55" height="120" fill="#0D7C6E" opacity="0.25" rx="2"/>
+      <text x="92"  y="27"  text-anchor="middle" font-size="9" fill="#0D7C6E" font-weight="bold">$21.9M</text>
+      <text x="149" y="38"  text-anchor="middle" font-size="9" fill="#475569">$20.3M</text>
+      <!-- Sales actual 11.3M h=67, target 15.2M h=90 -->
+      <rect x="205" y="96"  width="55" height="67"  fill="#B45309" rx="2"/>
+      <rect x="262" y="73"  width="55" height="90"  fill="#B45309" opacity="0.25" rx="2"/>
+      <text x="232" y="90"  text-anchor="middle" font-size="9" fill="#B45309" font-weight="bold">$11.3M</text>
+      <text x="289" y="68"  text-anchor="middle" font-size="9" fill="#475569">$15.2M</text>
+      <!-- CX actual 4.6M h=27, target 7.7M h=46 -->
+      <rect x="345" y="136" width="55" height="27"  fill="#B45309" rx="2"/>
+      <rect x="402" y="117" width="55" height="46"  fill="#B45309" opacity="0.25" rx="2"/>
+      <text x="372" y="130" text-anchor="middle" font-size="9" fill="#B45309" font-weight="bold">$4.6M</text>
+      <text x="429" y="112" text-anchor="middle" font-size="9" fill="#475569">$7.7M</text>
+      <!-- SDR actual 7.5M h=44, target 14.1M h=84 -->
+      <rect x="485" y="119" width="55" height="44"  fill="#C0392B" rx="2"/>
+      <rect x="542" y="79"  width="55" height="84"  fill="#C0392B" opacity="0.25" rx="2"/>
+      <text x="512" y="113" text-anchor="middle" font-size="9" fill="#C0392B" font-weight="bold">$7.5M</text>
+      <text x="569" y="74"  text-anchor="middle" font-size="9" fill="#475569">$14.1M</text>
+      <!-- x labels -->
+      <text x="148" y="185" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">Marketing ✓</text>
+      <text x="148" y="197" text-anchor="middle" font-size="9" fill="#0D7C6E">108% of target</text>
+      <text x="288" y="185" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">Sales</text>
+      <text x="288" y="197" text-anchor="middle" font-size="9" fill="#B45309">74% of target</text>
+      <text x="428" y="185" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">CX</text>
+      <text x="428" y="197" text-anchor="middle" font-size="9" fill="#B45309">60% of target</text>
+      <text x="568" y="185" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">SDR</text>
+      <text x="568" y="197" text-anchor="middle" font-size="9" fill="#C0392B">53% of target</text>
+      <!-- legend -->
+      <rect x="55" y="205" width="10" height="8" fill="#1A2E4A"/><text x="69" y="212" font-size="8.5" fill="#475569">Actual</text>
+      <rect x="105" y="205" width="10" height="8" fill="#CBD5E1"/><text x="119" y="212" font-size="8.5" fill="#475569">Target</text>
+    </svg>
+  </div>
+
+  <div class="cal">
+    <strong>The most important chart in this report for the CMO:</strong> Marketing over-delivered while every other revenue-generating function under-delivered. The pipeline gap and conversion problem is not evenly distributed — it is concentrated in SDR (−47pp vs target) and Sales (−26pp vs target). Marketing should not carry accountability for a funnel problem that begins after handoff.
+  </div>
+
+  <!-- SDR decline chart -->
+  <div class="cw" style="margin-top:1.25rem">
+    <div class="ct2">Quarterly pipeline — Marketing growing while SDR declining (FY2024 to FY2025, $M)</div>
+    <div class="lg">
+      <span><span class="sw" style="background:#0D7C6E"></span>Marketing generated</span>
+      <span><span class="sw" style="background:#F09595"></span>SDR generated</span>
+    </div>
+    <!-- 8 quarters, grouped bars. max ~6.5M, scale h=val/7*130, y=155-h -->
+    <svg viewBox="0 0 640 175" width="100%">
+      <line x1="50" y1="25" x2="615" y2="25" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="64" x2="615" y2="64" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="103" x2="615" y2="103" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="142" x2="615" y2="142" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="45" y="28" text-anchor="end" font-size="9" fill="#64748B">$7M</text>
+      <text x="45" y="67" text-anchor="end" font-size="9" fill="#64748B">$5M</text>
+      <text x="45" y="106" text-anchor="end" font-size="9" fill="#64748B">$3M</text>
+      <text x="45" y="145" text-anchor="end" font-size="9" fill="#64748B">$1M</text>
+      <!-- Q1 2024: Mkt 3.11, SDR 3.43 -->
+      <rect x="56"  y="97"  width="25" height="58"  fill="#0D7C6E" rx="2"/>
+      <rect x="83"  y="91"  width="25" height="64"  fill="#F09595" rx="2"/>
+      <!-- Q2 2024: Mkt 3.37, SDR 2.75 -->
+      <rect x="126" y="92"  width="25" height="63"  fill="#0D7C6E" rx="2"/>
+      <rect x="153" y="105" width="25" height="50"  fill="#F09595" rx="2"/>
+      <!-- Q3 2024: Mkt 4.85, SDR 2.91 -->
+      <rect x="196" y="72"  width="25" height="83"  fill="#0D7C6E" rx="2"/>
+      <rect x="223" y="103" width="25" height="52"  fill="#F09595" rx="2"/>
+      <!-- Q4 2024: Mkt 5.05, SDR 2.66 -->
+      <rect x="266" y="70"  width="25" height="85"  fill="#0D7C6E" rx="2"/>
+      <rect x="293" y="108" width="25" height="47"  fill="#F09595" rx="2"/>
+      <!-- divider line -->
+      <line x1="330" y1="15" x2="330" y2="155" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="333" y="22" font-size="8" fill="#64748B">FY2025 →</text>
+      <!-- Q1 2025: Mkt 4.82, SDR 2.57 -->
+      <rect x="336" y="74"  width="25" height="81"  fill="#0D7C6E" rx="2"/>
+      <rect x="363" y="110" width="25" height="45"  fill="#F09595" rx="2"/>
+      <!-- Q2 2025: Mkt 6.36, SDR 2.02 -->
+      <rect x="406" y="51"  width="25" height="104" fill="#0D7C6E" rx="2"/>
+      <rect x="433" y="120" width="25" height="35"  fill="#F09595" rx="2"/>
+      <!-- Q3 2025: Mkt 5.20, SDR 1.65 -->
+      <rect x="476" y="67"  width="25" height="88"  fill="#0D7C6E" rx="2"/>
+      <rect x="503" y="128" width="25" height="27"  fill="#F09595" rx="2"/>
+      <!-- Q4 2025: Mkt 5.85, SDR 1.46 -->
+      <rect x="546" y="58"  width="25" height="97"  fill="#0D7C6E" rx="2"/>
+      <rect x="573" y="131" width="25" height="24"  fill="#F09595" rx="2"/>
+      <!-- x labels -->
+      <text x="92"  y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q1'24</text>
+      <text x="162" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q2'24</text>
+      <text x="232" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q3'24</text>
+      <text x="302" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q4'24</text>
+      <text x="362" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q1'25</text>
+      <text x="432" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q2'25</text>
+      <text x="502" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q3'25</text>
+      <text x="572" y="165" text-anchor="middle" font-size="8.5" fill="#475569">Q4'25</text>
+      <!-- trend annotations -->
+      <text x="185" y="42" text-anchor="middle" font-size="8" fill="#0D7C6E" font-weight="bold">Marketing +36%</text>
+      <text x="490" y="122" text-anchor="middle" font-size="8" fill="#C0392B" font-weight="bold">SDR −34%</text>
+    </svg>
+  </div>
+
+  <!-- Win rates section -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">Target win rates by segment (FY2025 plan) — the assumptions the bookings targets were built on</div>
+  <table class="tbl">
+    <thead><tr><th>Segment</th><th>Target win rate</th><th>Target bookings</th><th>Implication</th></tr></thead>
+    <tbody>
+      <tr><td><strong>New Reg</strong></td><td><span class="ag">52%</span></td><td>$2.06M</td><td style="font-size:12px;color:var(--muted)">High win rate, small ASP ($8.5K) — volume play</td></tr>
+      <tr><td><strong>Core</strong></td><td>30%</td><td>$1.14M</td><td style="font-size:12px;color:var(--muted)">Mid-tier ASP ($38K), moderate win rate</td></tr>
+      <tr><td><strong>SMB</strong></td><td>22%</td><td>$1.25M</td><td style="font-size:12px;color:var(--muted)">Lower win rate, higher ASP ($38K)</td></tr>
+      <tr><td><strong>Enterprise</strong></td><td>20%</td><td>$580K</td><td style="font-size:12px;color:var(--muted)">Lowest win rate assumed — but Q1 SQO volume collapsed</td></tr>
+      <tr><td><strong>Install Base</strong></td><td>30%</td><td>$684K</td><td style="font-size:12px;color:var(--muted)">Win rate data suspect in Q1 — needs raw deal verification</td></tr>
+      <tr><td><strong>UK</strong></td><td>19%</td><td>$243K</td><td style="font-size:12px;color:var(--muted)">Lowest assumed win rate — and near-zero SQOs generated</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Forward pipeline -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">Forward pipeline — what is in the funnel right now</div>
+  <div class="sr" style="margin-bottom:1rem">
+    <div class="sc pos"><div class="lb">Closed Won — Pending</div><div class="vl">161 deals</div><div class="su">$917K ARR about to close</div></div>
+    <div class="sc"><div class="lb">Active open pipeline</div><div class="vl">210 deals</div><div class="su">$4.0M ARR in Selecting, Exploring, Contract Review, Negotiate</div></div>
+    <div class="sc warn"><div class="lb">Total near-term ARR</div><div class="vl">$4.9M</div><div class="su">If current pipeline converts at plan rates</div></div>
+    <div class="sc"><div class="lb">Avg deal age (open)</div><div class="vl">27 days</div><div class="su">Relatively young pipeline — Q1 2026 activity</div></div>
+  </div>
+
+  <div class="cw">
+    <div class="ct2">Open pipeline by segment — ARR ($K)</div>
+    <svg viewBox="0 0 580 215" width="100%">
+      <!-- horizontal bars, max 1.1M, width=400, scale w=val/1100*400 -->
+      <line x1="150" y1="8" x2="580" y2="8" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="150" y1="45" x2="580" y2="45" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="150" y1="82" x2="580" y2="82" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="150" y1="119" x2="580" y2="119" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="150" y1="156" x2="580" y2="156" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="145" y="28" text-anchor="end" font-size="10" fill="#1A2E4A">Install Base</text>
+      <rect x="150" y="10" width="401" height="22" fill="#0D7C6E" rx="2"/>
+      <text x="557" y="25" font-size="9" fill="#0D7C6E" font-weight="bold">$1.10M — 72 deals</text>
+      <text x="145" y="65" text-anchor="end" font-size="10" fill="#1A2E4A">Enterprise</text>
+      <rect x="150" y="47" width="381" height="22" fill="#0D7C6E" rx="2"/>
+      <text x="537" y="62" font-size="9" fill="#0D7C6E" font-weight="bold">$1.05M — 17 deals</text>
+      <text x="145" y="102" text-anchor="end" font-size="10" fill="#1A2E4A">Core</text>
+      <rect x="150" y="84" width="303" height="22" fill="#9FE1CB" rx="2"/>
+      <text x="459" y="99" font-size="9" fill="#0D7C6E" font-weight="bold">$834K — 37 deals</text>
+      <text x="145" y="139" text-anchor="end" font-size="10" fill="#1A2E4A">SMB</text>
+      <rect x="150" y="121" width="269" height="22" fill="#9FE1CB" rx="2"/>
+      <text x="425" y="136" font-size="9" fill="#0D7C6E" font-weight="bold">$740K — 50 deals</text>
+      <text x="145" y="176" text-anchor="end" font-size="10" fill="#1A2E4A">New Reg</text>
+      <rect x="150" y="158" width="118" height="22" fill="#9FE1CB" rx="2"/>
+      <text x="274" y="173" font-size="9" fill="#0D7C6E" font-weight="bold">$324K — 25 deals</text>
+      <text x="145" y="203" text-anchor="end" font-size="10" fill="#1A2E4A">UK</text>
+      <rect x="150" y="185" width="119" height="22" fill="#F09595" rx="2"/>
+      <text x="275" y="200" font-size="9" fill="#C0392B" font-weight="bold">$327K — 9 deals ⚠</text>
+    </svg>
+  </div>
+
+  <div class="cal am">
+    <strong>Notable:</strong> Enterprise has only 17 open deals but $1.05M ARR — the highest ARR concentration of any segment. This confirms the ENT problem is volume (not enough deals entering the funnel) rather than deal size once they do. Install Base has 72 deals but questions remain on win rate data quality. UK has just 9 open deals, consistent with the near-total SQO failure in Q1.
+  </div>
+
+</div></section>
+
 <section id="scorecard"><div class="con">
   <div class="kk">03 — Q1 2026 Segment Scorecard</div>
   <h2 class="st">4 of 6 segments beating target</h2>
@@ -453,7 +642,7 @@ svg{display:block;overflow:visible}
       </svg>
     </div>
   </div>
-  <div class="cal am"><strong>Key tension:</strong> Pipeline efficiency improved +12% FY24→FY25. Bookings efficiency declined −23%. The 2026 program budget jumps 62%. Events account for $620K (37%) with limited SF attribution. 6Sense ABM ($147K) generated 7 ENT SQOs vs 36 budgeted — validate ROI before renewal.</div>
+  <div class="cal am"><strong>Key tension:</strong> Pipeline efficiency improved +12% FY24→FY25. Bookings efficiency declined −23%. The 2026 program budget jumps 62%. Events account for $620K (37%) with limited SF attribution. 6Sense ABM ($147K) generated 7 ENT SQOs vs 36 budgeted — validate ROI before renewal. <strong>Note:</strong> Qualified ($115K) is now proven — 319 Q1 meetings, $502K closed won, $1.5M pipeline. It should not be grouped with unvalidated spend.</div>
 </div></section>
 
 <section id="events"><div class="con">
@@ -514,6 +703,186 @@ svg{display:block;overflow:visible}
   <div class="cal"><strong>ComplyConnect verdict:</strong> Marginally ROI-positive if Empower ($200K, close date Mar 2027) closes. Recommended cost ceiling for 2026: $220K. Empower needs a named owner now.</div>
 </div></section>
 
+<section id="programs"><div class="con">
+  <div class="kk">05b — Webinars, Showcases &amp; Events · Q1 2026</div>
+  <h2 class="st">A content and field marketing engine — fully tracked</h2>
+  <p class="sb">Q1 2026 (January–March) only. This section captures the broader programme running alongside paid media — 8 thought leadership webinars, 6 solution showcases, and 5 tracked field events — all with Salesforce attribution. This is the engine behind the top-of-funnel numbers, and it has no budget line of its own in the programme spend breakdown.</p>
+
+  <!-- Webinar headline stats -->
+  <div class="sr">
+    <div class="sc pos"><div class="lb">Thought leadership webinars — Q1</div><div class="vl">8</div><div class="su">1,203 prospect + 1,448 client attendees</div></div>
+    <div class="sc pos"><div class="lb">Solution showcases — Q1</div><div class="vl">6</div><div class="su">214 prospect + 494 client attendees</div></div>
+    <div class="sc pos"><div class="lb">Standout webinar — influenced pipeline</div><div class="vl">$956K</div><div class="su">2026 Compliance Calendar Priorities (564 prospect registrations)</div></div>
+    <div class="sc"><div class="lb">Prospect newsletter — launched Feb 2026</div><div class="vl">295</div><div class="su">Accounts engaged · 41 opps influenced · 50 reactivated</div></div>
+  </div>
+
+  <!-- Webinar performance table -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">Thought leadership webinar performance — Q1 2026</div>
+  <table class="tbl">
+    <thead><tr><th>Webinar</th><th style="text-align:right">Prospects</th><th style="text-align:right">Clients</th><th style="text-align:right">Influenced pipeline</th></tr></thead>
+    <tbody>
+      <tr><td><strong>2026 Compliance Calendar Priorities for SEC Firms</strong></td><td style="text-align:right">564</td><td style="text-align:right">351</td><td style="text-align:right"><span class="ag">$956K</span></td></tr>
+      <tr><td>Compliance Strategies for Small Advisory Firms</td><td style="text-align:right">210</td><td style="text-align:right">195</td><td style="text-align:right">$297K</td></tr>
+      <tr><td>Cybersecurity Essentials for Effective Compliance Oversight</td><td style="text-align:right">195</td><td style="text-align:right">347</td><td style="text-align:right">$219K</td></tr>
+      <tr><td>Back to Basics: Filing a Form ADV That Reflects Reality</td><td style="text-align:right">41</td><td style="text-align:right">421</td><td style="text-align:right">$114K</td></tr>
+      <tr><td>Women in Compliance: A Practical Conversation on AI</td><td style="text-align:right">193</td><td style="text-align:right">134</td><td style="text-align:right">$41K</td></tr>
+      <tr><td style="color:var(--muted);font-size:12px" colspan="4">+ 3 further webinars (AI in Financial Services, 2026 Midterms Pay to Play, Books &amp; Records in the Age of AI) — pipeline data pending</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Solution showcase table -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">Solution showcase performance — Q1 2026</div>
+  <table class="tbl">
+    <thead><tr><th>Showcase</th><th style="text-align:right">Prospects</th><th style="text-align:right">Clients</th><th style="text-align:right">Influenced pipeline</th></tr></thead>
+    <tbody>
+      <tr><td>Communications Archiving in 2026 — Midterms</td><td style="text-align:right">104</td><td style="text-align:right">85</td><td style="text-align:right"><span class="ag">$171K</span></td></tr>
+      <tr><td>Comply Solution Showcase: Inside the Unified Platform</td><td style="text-align:right">24</td><td style="text-align:right">166</td><td style="text-align:right">$160K</td></tr>
+      <tr><td>illumis Solution Showcase</td><td style="text-align:right">58</td><td style="text-align:right">193</td><td style="text-align:right">$90K</td></tr>
+      <tr><td>Comply Platform Showcase: Uniting Employee and Firm Compliance</td><td style="text-align:right">28</td><td style="text-align:right">51</td><td style="text-align:right">$55K</td></tr>
+      <tr><td style="color:var(--muted);font-size:12px" colspan="4">+ 2 further showcases (How Comply Lightens the Load, 2026 Platform Roadmap) — pipeline data pending</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cal" style="margin-bottom:1.5rem">
+    <strong>The webinar programme is an underappreciated asset.</strong> A single webinar — "2026 Compliance Calendar Priorities" — influenced $956K of pipeline from 564 prospect registrations. At effectively zero marginal cost per attendee, this is the highest-efficiency pipeline channel in the portfolio. The content marketing machine is working and it has no budget line of its own in the programme spend breakdown.
+  </div>
+
+  <!-- Events comparison -->
+  <div class="ct2" style="margin-bottom:.6rem">Q1 2026 field events — all tracked with Salesforce attribution</div>
+  <table class="tbl">
+    <thead><tr><th>Event</th><th>Date</th><th style="text-align:right">Leads</th><th style="text-align:right">Sourced pipeline</th><th style="text-align:right">Influenced pipeline</th><th style="text-align:right">Closed won</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Advyzon</strong></td><td style="font-size:12px;color:var(--muted)">Jan 26–28</td>
+        <td style="text-align:right">62</td>
+        <td style="text-align:right"><span class="ag">$172K</span></td>
+        <td style="text-align:right">$248K</td>
+        <td style="text-align:right"><span class="ag">$68K</span></td>
+      </tr>
+      <tr>
+        <td><strong>T3 Technology</strong></td><td style="font-size:12px;color:var(--muted)">Mar 9–12</td>
+        <td style="text-align:right">32</td>
+        <td style="text-align:right"><span class="ag">$75K</span></td>
+        <td style="text-align:right">$45K</td>
+        <td style="text-align:right; color:var(--muted)">—</td>
+      </tr>
+      <tr>
+        <td><strong>Future Proof</strong></td><td style="font-size:12px;color:var(--muted)">Mar 9–11</td>
+        <td style="text-align:right">24 mtgs</td>
+        <td style="text-align:right"><span class="ag">$19K</span></td>
+        <td style="text-align:right">$19K</td>
+        <td style="text-align:right;color:var(--muted)">—</td>
+      </tr>
+      <tr>
+        <td><strong>IAA</strong></td><td style="font-size:12px;color:var(--muted)">Mar 18–20</td>
+        <td style="text-align:right">50</td>
+        <td style="text-align:right;color:var(--muted)">—</td>
+        <td style="text-align:right">$37K</td>
+        <td style="text-align:right;color:var(--muted)">—</td>
+      </tr>
+      <tr>
+        <td><strong>SIFMA C&amp;L</strong></td><td style="font-size:12px;color:var(--muted)">Mar 22–25</td>
+        <td style="text-align:right">35</td>
+        <td style="text-align:right;color:var(--muted)">—</td>
+        <td style="text-align:right">$19K</td>
+        <td style="text-align:right;color:var(--muted)">—</td>
+      </tr>
+      <tr style="font-weight:600;background:var(--gray)">
+        <td>Q1 total</td><td></td>
+        <td style="text-align:right">203+</td>
+        <td style="text-align:right"><span class="ag">$266K</span></td>
+        <td style="text-align:right">$368K</td>
+        <td style="text-align:right"><span class="ag">$68K</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Events bar chart -->
+  <div class="cw" style="margin-top:1rem">
+    <div class="ct2">Q1 2026 events — sourced + influenced pipeline per event ($K)</div>
+    <div class="lg">
+      <span><span class="sw" style="background:#0D7C6E"></span>Sourced (direct attribution)</span>
+      <span><span class="sw" style="background:#9FE1CB"></span>Influenced</span>
+    </div>
+    <svg viewBox="0 0 580 185" width="100%">
+      <line x1="50" y1="20" x2="560" y2="20" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="63" x2="560" y2="63" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="106" x2="560" y2="106" stroke="#F1F5F9" stroke-width="1"/>
+      <line x1="50" y1="149" x2="560" y2="149" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="45" y="23" text-anchor="end" font-size="9" fill="#64748B">$300K</text>
+      <text x="45" y="66" text-anchor="end" font-size="9" fill="#64748B">$200K</text>
+      <text x="45" y="109" text-anchor="end" font-size="9" fill="#64748B">$100K</text>
+      <!-- scale: max 300K, h=val/300*129, y=149-h -->
+      <!-- Advyzon: sourced 172, influenced 248 -->
+      <rect x="65"  y="75"  width="55" height="74"  fill="#0D7C6E" rx="2"/>
+      <rect x="122" y="42"  width="55" height="107" fill="#9FE1CB" rx="2"/>
+      <text x="92"  y="69"  text-anchor="middle" font-size="8.5" fill="#0D7C6E" font-weight="bold">$172K</text>
+      <text x="149" y="36"  text-anchor="middle" font-size="8.5" fill="#0D7C6E">$248K</text>
+      <!-- T3: sourced 75, influenced 45 -->
+      <rect x="195" y="117" width="55" height="32"  fill="#0D7C6E" rx="2"/>
+      <rect x="252" y="130" width="55" height="19"  fill="#9FE1CB" rx="2"/>
+      <text x="222" y="111" text-anchor="middle" font-size="8.5" fill="#0D7C6E" font-weight="bold">$75K</text>
+      <text x="279" y="124" text-anchor="middle" font-size="8.5" fill="#0D7C6E">$45K</text>
+      <!-- Future Proof: sourced 19, influenced 19 -->
+      <rect x="325" y="141" width="55" height="8"   fill="#0D7C6E" rx="2"/>
+      <rect x="382" y="141" width="55" height="8"   fill="#9FE1CB" rx="2"/>
+      <text x="352" y="136" text-anchor="middle" font-size="8.5" fill="#0D7C6E">$19K</text>
+      <!-- IAA: influenced only 37 -->
+      <rect x="455" y="133" width="55" height="16"  fill="#9FE1CB" rx="2"/>
+      <text x="482" y="127" text-anchor="middle" font-size="8.5" fill="#0D7C6E">$37K</text>
+      <!-- x labels -->
+      <text x="149" y="167" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">Advyzon</text>
+      <text x="149" y="178" text-anchor="middle" font-size="8.5" fill="#64748B">Jan · $14K cost</text>
+      <text x="279" y="167" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">T3</text>
+      <text x="279" y="178" text-anchor="middle" font-size="8.5" fill="#64748B">Mar</text>
+      <text x="409" y="167" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">Future Proof</text>
+      <text x="409" y="178" text-anchor="middle" font-size="8.5" fill="#64748B">Mar</text>
+      <text x="482" y="167" text-anchor="middle" font-size="9.5" fill="#1A2E4A" font-weight="bold">IAA</text>
+      <text x="482" y="178" text-anchor="middle" font-size="8.5" fill="#64748B">Mar</text>
+      <text x="530" y="130" text-anchor="middle" font-size="8.5" fill="#64748B">SIFMA C&amp;L</text>
+      <text x="530" y="141" text-anchor="middle" font-size="8.5" fill="#64748B">$19K infl.</text>
+    </svg>
+  </div>
+
+  <div class="cal">
+    <strong>Important context on T3, Future Proof, IAA and SIFMA:</strong> All four events took place in the second half of March 2026. With average deal cycles of 30–90 days, closed won data will not be meaningful until Q2 2026. The pipeline attributed already ($140K combined influenced) is early-stage signal. Advyzon is the right comparison for what these events should produce over the next 6–8 weeks.
+  </div>
+
+  <!-- Rebrand gift box -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">Rebrand gift box campaign — direct commercial output of the October 2025 brand launch</div>
+  <div class="sr">
+    <div class="sc pos"><div class="lb">New opportunities created</div><div class="vl">20</div><div class="su">Includes renewals</div></div>
+    <div class="sc pos"><div class="lb">Closed won deals</div><div class="vl">10</div><div class="sub">$74K ARR · $32K NRR</div></div>
+    <div class="sc pos"><div class="lb">Still in pipeline</div><div class="vl">10</div><div class="su">$493K ARR · $53K NRR</div></div>
+    <div class="sc pos"><div class="lb">Total ARR at stake</div><div class="vl">$567K</div><div class="su">Won + open pipeline from one campaign</div></div>
+  </div>
+  <div class="cal">
+    <strong>The rebrand is paying off commercially.</strong> A targeted gift box campaign tied directly to the October 2025 brand launch generated $74K in closed ARR and has $493K more in active pipeline. This connects the brand investment — LinkedIn engagement up 21%, organic reach up 33% — to direct revenue, not just awareness.
+  </div>
+
+  <!-- 6Sense nurture -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">6Sense AI nurture — client marketing trial (February 2026 only)</div>
+  <div class="sr">
+    <div class="sc"><div class="lb">Conversations started</div><div class="vl">314</div><div class="su">AI-personalised follow-ups post-webinar</div></div>
+    <div class="sc"><div class="lb">Emails opened</div><div class="vl">209</div><div class="su">67% open rate</div></div>
+    <div class="sc"><div class="lb">Responses received</div><div class="vl">27</div><div class="su">8.6% response rate</div></div>
+    <div class="sc warn"><div class="lb">Meetings booked</div><div class="vl">4</div><div class="su">February trial only — Q2 will have full quarter</div></div>
+  </div>
+  <div class="cal am">
+    <strong>6Sense context:</strong> The ABM pipeline attribution (7 ENT SQOs vs 36 budgeted) raises questions about the $147K investment. However, 6Sense is also being used for client AI nurture campaigns — a separate use case that showed a 67% open rate in its first trial month. The two use cases should be evaluated separately before any renewal decision.
+  </div>
+
+  <!-- G2 -->
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">G2 — brand presence and competitive intelligence</div>
+  <div class="sr">
+    <div class="sc pos"><div class="lb">G2 rating</div><div class="vl">4/5 ★</div><div class="su">High customer service score</div></div>
+    <div class="sc pos"><div class="lb">vs MCO (main competitor)</div><div class="vl">Outranks</div><div class="su">All badge categories</div></div>
+    <div class="sc"><div class="lb">Strategic use</div><div class="vl">LLM SEO</div><div class="su">Improving rankings in Gemini, ChatGPT, G2 Search</div></div>
+    <div class="sc warn"><div class="lb">Gap identified</div><div class="vl">Market presence</div><div class="su">High service score but lower market presence score — area to build</div></div>
+  </div>
+
+</div></section>
+
 <section id="roas"><div class="con">
   <div class="kk">06 — Paid Media ROAS</div>
   <h2 class="st">A capability that didn't exist before</h2>
@@ -566,6 +935,42 @@ svg{display:block;overflow:visible}
   </div>
   <div class="cal am"><strong>The number to watch:</strong> CW ROAS is 0.73× — spending more than returning in closed deals YTD. Same conversion gap visible across the whole funnel. $1.35M in open Google pipeline should improve this as cycles close.</div>
   <div class="cal" style="margin-top:10px"><strong>*Content Syndication EMEA $0 closed won</strong> reflects the UK SQO conversion failure, not channel failure. 320 MQLs across 47 accounts proves demand is real. No UK pipeline motion to convert it.</div>
+
+  <div class="ct2" style="margin-top:1.5rem;margin-bottom:.6rem">Qualified (website chatbot) — Q1 2026 · $115K annual budget</div>
+  <div class="sr">
+    <div class="sc pos"><div class="lb">Meetings booked via website</div><div class="vl">319</div><div class="su">Q1 2026</div></div>
+    <div class="sc pos"><div class="lb">Pipeline generated</div><div class="vl">$1.5M</div><div class="sub">ARR across 167 opportunities</div></div>
+    <div class="sc pos"><div class="lb">Closed won ARR</div><div class="vl">$502K</div><div class="su">87 deals closed from this channel</div></div>
+    <div class="sc pos"><div class="lb">Pipeline ROAS</div><div class="vl">13×</div><div class="su">$1.5M pipeline / $115K annual cost</div></div>
+  </div>
+  <div class="cw">
+    <div class="ct2">Qualified pipeline by segment — Q1 2026 (ARR $K)</div>
+    <svg viewBox="0 0 580 225" width="100%">
+      <!-- horizontal bars, max ~400K, scale w=val/420*380 -->
+      <text x="145" y="28" text-anchor="end" font-size="10" fill="#1A2E4A">SMB</text>
+      <rect x="150" y="10" width="359" height="22" fill="#0D7C6E" rx="2"/>
+      <text x="515" y="25" font-size="9" fill="#0D7C6E" font-weight="bold">$397K — 39 deals</text>
+      <text x="145" y="60" text-anchor="end" font-size="10" fill="#1A2E4A">New Reg</text>
+      <rect x="150" y="42" width="200" height="22" fill="#0D7C6E" rx="2"/>
+      <text x="356" y="57" font-size="9" fill="#0D7C6E" font-weight="bold">$221K — 49 deals</text>
+      <text x="145" y="92" text-anchor="end" font-size="10" fill="#1A2E4A">Core</text>
+      <rect x="150" y="74" width="278" height="22" fill="#9FE1CB" rx="2"/>
+      <text x="434" y="89" font-size="9" fill="#0D7C6E" font-weight="bold">$307K — 12 deals</text>
+      <text x="145" y="124" text-anchor="end" font-size="10" fill="#1A2E4A">Unassigned</text>
+      <rect x="150" y="106" width="244" height="22" fill="#9FE1CB" rx="2"/>
+      <text x="400" y="121" font-size="9" fill="#0D7C6E" font-weight="bold">$270K — 50 deals</text>
+      <text x="145" y="156" text-anchor="end" font-size="10" fill="#1A2E4A">Enterprise</text>
+      <rect x="150" y="138" width="163" height="22" fill="#B45309" rx="2"/>
+      <text x="319" y="153" font-size="9" fill="#B45309" font-weight="bold">$181K — 3 deals</text>
+      <text x="145" y="185" text-anchor="end" font-size="10" fill="#1A2E4A">UK</text>
+      <rect x="150" y="167" width="80" height="22" fill="#F09595" rx="2"/>
+      <text x="238" y="182" font-size="9" fill="#C0392B" font-weight="bold">$88K — 5 deals</text>
+      <text x="145" y="213" text-anchor="end" font-size="10" fill="#1A2E4A">Install Base</text>
+      <rect x="150" y="195" width="32" height="22" fill="#CBD5E1" rx="2"/>
+      <text x="190" y="210" font-size="9" fill="#475569">$36K — 9 deals</text>
+    </svg>
+  </div>
+  <div class="cal"><strong>Qualified justifies its $115K budget clearly.</strong> 319 meetings booked in a single quarter, $502K already closed, $1.5M in pipeline — a 13× pipeline ROAS and 4.4× closed won ROAS. Enterprise generated only 3 meetings (consistent with the ENT SQO volume problem across all channels), and UK generated only 5 — also consistent. This channel is working where the business is working, and stalling where it isn't.</div>
 </div></section>
 
 <section id="rebrand"><div class="con">
